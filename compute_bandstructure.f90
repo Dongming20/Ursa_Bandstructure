@@ -957,7 +957,7 @@ Emin=-80.0d0!-15.0d0
 Emax= 0.5d0!-0.1d0
 
 M0_1=2
-Emin_1=-105.0d0
+Emin_1=-70.0d0
 Emax_1= 0.0d0
 
 M0_2=2
@@ -1164,7 +1164,7 @@ call MPI_ALLREDUCE(Bmatrix_temp,B,neigh_size,MPI_DOUBLE_COMPLEX,MPI_SUM,MPI_COMM
 
  call feastinit(fpm)
  !fpm(1)=1
- M0_1=30
+ M0_1=25
  call zfeast_hcsrgv(UPLO, Nn_prime, A, IA, JA, B, IA, JA, fpm, epsout, loop, Emin_1, Emax_1, M0_1, E, psi, M00, res, info)
 
 !  if (rank==0) print *, 'FEAST-info---------',info
