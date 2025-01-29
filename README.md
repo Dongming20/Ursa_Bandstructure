@@ -6,6 +6,6 @@ This is Ursa's bandstructure calculation code, which will include bandstructure 
 Current version only support DFT bandstructure calculations.
 
 Reference:\
-[Dongming Li, James Kestyn, and Eric Polizzi. A method of calculating bandstructure in realspace
+[Dongming Li, James Kestyn, and Eric Polizzi. A method of calculating bandstructure in real space
 with application to all-electron and full potential. Computer Physics Communications,
 volume 295, page 109014, 2024.](https://www.sciencedirect.com/science/article/pii/S0010465523003594)
